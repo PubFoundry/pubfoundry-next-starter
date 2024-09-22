@@ -8,6 +8,8 @@
 
 # testing
 /coverage
+/e2e/out
+/playwright-report/
 
 # next.js
 /.next/
