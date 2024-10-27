@@ -31,6 +31,14 @@
     "react",
     "react-hooks"
   ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
+      }
+    }
+  },
   "rules": {
     "react/react-in-jsx-scope": "off",
     "no-console": "warn",

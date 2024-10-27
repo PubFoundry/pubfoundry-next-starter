@@ -1,4 +1,7 @@
+import { CodeBracketIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
+
+import ButtonLink from '@/components/button-link'
 
 export default function Home() {
   return (
@@ -47,6 +50,15 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div className="flex w-full items-center">
+          <ButtonLink
+            href={'https://github.com/PubFoundry/pubfoundry-next-starter'}
+            target="_blank"
+            className="mt-8 flex w-full content-center gap-2"
+          >
+            <CodeBracketIcon className="h-5 w-5" /> Go to Repo
+          </ButtonLink>
         </div>
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
