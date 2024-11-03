@@ -13,6 +13,16 @@ This template was created using `npx create-next-app@latest` with the following 
 | Would you like to use Turbopack for next dev? | ✅ |
 | Would you like to customize the import alias (@/* by default)? | ❌ |
 
+## Installation
+
+You can either clone this repo to get started, or run the following command:
+
+```bash
+npx create-next-app@latest --example https://github.com/PubFoundry/pubfoundry-next-starter [your-project-name]
+```
+
+For more info, see the [Next.js Docs](https://nextjs.org/docs/pages/api-reference/cli/create-next-app#with-any-public-github-example)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
