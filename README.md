@@ -1,3 +1,28 @@
+## PubFoundry Next.js Starter Template
+
+This is a pre-configured starter template to you save you time in configuring common development tools such as TypeScript, ESLint, Prettier, Tailwind, Jest, Playwright and GitHub Actions to work together flawlessly.
+
+This template was created using `npx create-next-app@latest` with the following options:
+
+| Question   | Answer |
+| -------- | ------- |
+| Would you like to use TypeScript? | ✅ |
+| Would you like to use ESLint? | ✅ |
+| Would you like to use Tailwind CSS? | ✅ |
+| Would you like to use App Router? (recommended) | ✅ |
+| Would you like to use Turbopack for next dev? | ✅ |
+| Would you like to customize the import alias (@/* by default)? | ❌ |
+
+## Installation
+
+You can either clone this repo to get started, or run the following command:
+
+```bash
+npx create-next-app@latest --example https://github.com/PubFoundry/pubfoundry-next-starter [your-project-name]
+```
+
+For more info, see the [Next.js Docs](https://nextjs.org/docs/pages/api-reference/cli/create-next-app#with-any-public-github-example)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
