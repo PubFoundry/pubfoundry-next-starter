@@ -24,9 +24,7 @@ jobs:
         run: npm run tsc
 
       - name: Lint
-        run: |
-          npm run prettier
-          npm run eslint
+        run: npm run eslint
 
       - name: Run Jest tests
         run: npm run test

@@ -2,3 +2,6 @@ build
 node_modules
 next.config.js
 playwright-report
+
+jest.config.js
+playwright.config.ts

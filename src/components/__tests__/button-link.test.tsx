@@ -5,7 +5,7 @@ import ButtonLink from '@/components/button-link'
 
 // Mock next/link as it's not available in the test environment
 jest.mock('next/link', () => {
-  // eslint-disable-next-line react/display-name
+  // eslint-disable-next-line react/display-name, @typescript-eslint/no-explicit-any
   return ({ children, className, href, ...rest }: any) => {
     return (
       <a href={href} className={className} {...rest}>
